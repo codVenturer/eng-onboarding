@@ -1,10 +1,10 @@
 function fibonacci(n) {
     if (n !== parseInt(n)) {
-      alert("Not a valid number"); // number is not valid
+      alert("Not a valid number");
       return;
     }
     if (n <= 0) {
-      alert("Enter a positive Integer"); // if number is less than or equal to zero, function will return with console message
+      alert("Enter a positive Integer");
       return;
     }
   
@@ -23,7 +23,6 @@ function fibonacci(n) {
     return;
   }
   
-  let number = parseInt(window.prompt("Enter a number"));
+const number = parseInt(window.prompt("Enter a number"));
   
-  fibonacci(number);
-  
+fibonacci(number);
